@@ -1,3 +1,10 @@
+"""
+Program: test_validation_with_try.py
+Author: Jack Reser
+
+tests the program to make sure it catches ValueErrors
+"""
+
 import unittest
 from input_validation import validation_with_try
 

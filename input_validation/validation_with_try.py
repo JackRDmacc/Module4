@@ -1,5 +1,5 @@
 """
-Program: average_scores.py
+Program: validation_with_try.py
 Author: Jack Reser
 
 program that accepts 3 test scores, first and last name, and age.  Prints out info
@@ -12,6 +12,7 @@ def average(score1, score2, score3):
     if (score1 < 0 or score2 < 0 or score3< 0):
         raise ValueError
     return float((score1 + score2 + score3)/NUMBER_TESTS)
+
 
 if __name__ == '__main__':
     lastName = input("Enter your last name: ")
